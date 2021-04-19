@@ -1,4 +1,5 @@
 class Budget:
+
 	def __init__(self, category, amount):
 		self.category = category
 		self.amount = amount
@@ -107,7 +108,6 @@ class Budget:
 		print ("This is your handy expense tracker")
 		print("-----------------------------------")
 		try:
-
 			choices = int(input(
                 '\nWhat would you like to do today?\nNew Category[1]\nDeposit funds[2]\nWithdraw funds[3]\nTransfer funds[4]\nCheck balance[5]\nExit[6]"\n'))
 		except:
@@ -127,10 +127,6 @@ class Budget:
 				self.sign_out()
 			else:
 				print('Invalid input\n')
-
-
-
-
 
 
 
