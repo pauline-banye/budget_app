@@ -15,12 +15,12 @@ class Budget:
 
 
 	def transfer(self, amount, category):
-			if self.amount < withdraw_amt
-				self.amount -= withdraw_amt
-				category.amount += amount
-				return category.amount
-			else:
-				return "Fund balance exceeded"
+		if self.amount < withdraw_amt
+			self.amount -= withdraw_amt
+			category.amount += amount
+			return category.amount
+		else:
+			return "Fund balance exceeded"
 
 
     def debit(self, amount):
@@ -54,8 +54,7 @@ class Budget:
         print('Withdrawal successful')
 
 
-	def fund_transfer(self, category, amount):
-		
+	def fund_transfer(self, category, amount):		
 		while (True):
 			withdraw_amt = int(input("\n How much do you want to transfer?:  "))
 
